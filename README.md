@@ -1,5 +1,5 @@
 # Original creator
-@yorkox0
+@https://github.com/yorkox0/
 
 
 This script has been tested on ParrotOS, Kali and Ubuntu.
@@ -52,7 +52,7 @@ python3 main.py
 #In the console
 settarget <Assign IP to attack, for Hack The Box, TryHackMe>
 
-## Créditos
+## Credits
 - Autor: yorkox
 - Edited: H4ckerLite
 - Translated: H4ckerLite
