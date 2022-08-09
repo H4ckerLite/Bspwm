@@ -4,7 +4,7 @@ Funciona para todos los sistemas operativos basados en Debian.
 # Instalación
 ```
 git clone https://github.com/H4ckerLite/Bspown.git
-cd autoBspwm/
+cd Bspwm/
 python3 main.py
 ```
 ## Vista general
