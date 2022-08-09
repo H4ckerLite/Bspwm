@@ -1,51 +1,55 @@
-Se ha testeado este script en ParrotOS, Kali y Ubuntu.
-Funciona para todos los sistemas operativos basados en Debian.
+This script has been tested on ParrotOS, Kali and Ubuntu.
+It works for all Debian-based operating systems.
 
-# Instalación
+# Bspwn installation
 ```
-git clone https://github.com/H4ckerLite/Bspown.git
+git clone https://github.com/H4ckerLite/Bspwn
 cd Bspwm/
 python3 main.py
 ```
 ## Vista general
-![BSPWM](https://i.ibb.co/7Q6nNhP/preview.png "autoBSPWM by yorkox[Edited by: H4ckerLite")
+![BSPWM](https://ibb.co/9hCb3P6 "autoBSPWM by yorkox
+##
+[Edited by: H4ckerLite")
 
 
 
-## Utilidades:
+## Utilities:
 - **bspwm**: Tiling Window Manager.
 - **zsh**: Shell.
-- **powerlevel10k**: Tema de la zsh.
-- **sxhkd**: Es un "demonio" que escucha los eventos del teclado y ejecuta comandos.
-- **polybar**: Herramienta rápida y fácil de usar para crear barras de estado.
-- **polybar-themes**: Temas para la polybar.
-- **compton**: Es un compositor para X y una bifurcación de xcompmgr-dana.
-- **rofi**: Selector de ventana y lanzador de aplicaciones.
-- **feh**: Visor de imágenes ligero, configurable y versátil.
-- **Hack Nerd Font**: Fuente.
-- **fzf**: Buscador difuso de línea de comandos de propósito general.
+- **powerlevel10k**: Theme of the zsh.
+- **sxhkd**: It is a tool that listens for keyboard events and executes commands.
+- **polybar**: Quick and easy to use tool to create status bars.
+- **polybar-themes**: Themes for the polybar.
+- **compton**: It is a compositor for X and a fork of xcompmgr-dana.
+- **rofi**: Window selector and application launcher.
+- **feh**: Lightweight, configurable and versatile image viewer.
+- **Hack Nerd Font**: Font
+- **fzf**: General purpose command line fuzzy finder.
 
-## Shortcuts (atajos de teclado)
-<kbd>Windows</kbd> + <kbd>Enter</kbd> : Abrir la consola (gnome-terminal).  
-<kbd>Windows</kbd> + <kbd>W</kbd> : Cerrar la ventana actual.  
+## Shortcuts
+<kbd>Windows</kbd> + <kbd>Enter</kbd> : Open The  console (gnome-terminal).  
+<kbd>Windows</kbd> + <kbd>W</kbd> : Close the current sale.  
 <kbd>Windows</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> : Reiniciar la configuración del bspwm.  
-<kbd>Windows</kbd> + <kbd>Alt</kbd> + <kbd>Q</kbd> : Cerrar sesión.  
-<kbd>Windows</kbd> + <kbd>(⬆⬅⬇➡)</kbd> : Moverse por las ventanas en la workspace actual.  
-<kbd>Windows</kbd> + <kbd>D</kbd> : Abrir el Rofi. <kbd>Esc</kbd> para salir.  
-<kbd>Windows</kbd> + <kbd>(1,2,3,4,5,6,7,8,9,0)</kbd> : Cambiar el workspace.  
-<kbd>Windows</kbd> + <kbd>T</kbd> : Cambiar la ventana actual a modo "terminal" (normal). Nos sirve cuando la ventana está en modo pantalla completa o flotante.  
-<kbd>Windows</kbd> + <kbd>M</kbd> : Cambiar la ventana actual a modo "completo" (no ocupa la polybar). Presione la mismas teclas para volver a modo "terminal" (normal).  
-<kbd>Windows</kbd> + <kbd>F</kbd> : Cambiar la ventana actual a modo pantalla completa (ocupa todo incluyendo la polybar).  
-<kbd>Windows</kbd> + <kbd>S</kbd> : Cambiar la ventana actual a modo "flotante".  
-<kbd>Windows</kbd> + <kbd>Alt</kbd> + <kbd>(1,2,3,4,5,6,7,8,9,0)</kbd> : Mover la ventana actual a otro workspace.  
-<kbd>Windows</kbd> + <kbd>Alt</kbd> + <kbd>(⬆⬅⬇➡)</kbd> : Cambiar el tamaño de la ventana actual (solo funciona si está en modo terminal o flotante).  
-<kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>(⬆⬅⬇➡)</kbd> : Cambiar la posición de la ventana actual (solo funciona en modo flotante).  
-<kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd> : Abrir Google Chrome (es necesario instalarlo primero).  
-<kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>(⬆⬅⬇➡)</kbd> : Mostrar una preselección para luego abrir una ventana (una terminal, Google Chrome, un archivo, etc.). <kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>Space</kbd> para deshacer la preselección.  
+<kbd>Windows</kbd> + <kbd>Alt</kbd> + <kbd>Q</kbd> : close the sessionn.  
+<kbd>Windows</kbd> + <kbd>(⬆⬅⬇➡)</kbd> : Move through the windows in the current workspace.  
+<kbd>Windows</kbd> + <kbd>D</kbd> : Open the Rofi. <kbd>Esc</kbd> to got out.  
+<kbd>Windows</kbd> + <kbd>(1,2,3,4,5,6,7,8,9,0)</kbd> : Change the workspace.  
+<kbd>Windows</kbd> + <kbd>T</kbd> : Change the current window to "terminal" (normal) mode. It is useful when the window is in full screen or floating mode.
+<kbd>Windows</kbd> + <kbd>M</kbd> : Change the current window to "full" mode (does not occupy the polybar). Press the same keys to return to "terminal" (normal) mode.  
+<kbd>Windows</kbd> + <kbd>F</kbd> : Change the current window to full screen mode (occupies everything including the polybar).  
+<kbd>Windows</kbd> + <kbd>S</kbd> : Change the current window to "floating" mode.
+<kbd>Windows</kbd> + <kbd>Alt</kbd> + <kbd>(1,2,3,4,5,6,7,8,9,0)</kbd> : Move the current window to another workspace.  
+<kbd>Windows</kbd> + <kbd>Alt</kbd> + <kbd>(⬆⬅⬇➡)</kbd> : Resize the current window (only works if you are in terminal or floating mode).
+<kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>(⬆⬅⬇➡)</kbd> : Change the position of the current window (only works in floating mode).
+<kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd> : Open Google Chrome (you need to install it first).
+<kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>(⬆⬅⬇➡)</kbd> : Show a preset to then open a window (a terminal, Google Chrome, a file, etc.). <kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>Space</kbd> to undo the preset.  
 
-## Configuración manual:
-- Video by s4vitar: https://www.youtube.com/watch?v=mHLwfI1nHHY
+#In the console
+settarget <Assign IP to attack, for Hack The Box, TryHackMe>
 
 ## Créditos
 - Autor: yorkox
-- Inspirado en S4vitar
+- Edited: H4ckerLite
+- Translated: H4ckerLite
+- Inspired: S4vitar
