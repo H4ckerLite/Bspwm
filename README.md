@@ -8,7 +8,7 @@ cd autoBspwm/
 python3 main.py
 ```
 ## Vista general
-![BSPWM](https://i.ibb.co/B4YbKDy/2021-12-07-150410-1920x1080-scrot.png "autoBSPWM by yorkox[Edited by: H4ckerLite")
+![BSPWM]([url=https://ibb.co/9hCb3P6][img]https://i.ibb.co/f9PkGJf/preview.png[/img][/url]"autoBSPWM by yorkox[Edited by: H4ckerLite")
 
 
 
