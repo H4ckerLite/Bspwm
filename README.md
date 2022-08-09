@@ -1,3 +1,7 @@
+#Original creator
+@https://github.com/yorkox0/
+
+
 This script has been tested on ParrotOS, Kali and Ubuntu.
 It works for all Debian-based operating systems.
 
