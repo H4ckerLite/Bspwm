@@ -1,5 +1,5 @@
-#Original creator
-@https://github.com/yorkox0/
+# Original creator
+@yorkox0
 
 
 This script has been tested on ParrotOS, Kali and Ubuntu.
